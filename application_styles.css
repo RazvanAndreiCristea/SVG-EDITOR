@@ -1,0 +1,208 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-right: 100px;
+    margin-left: 34px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url("./media/background.png");
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 4px;
+}
+
+button:hover {
+    background-color: darkgray;
+    opacity: 0.4;
+}
+
+svg {
+    cursor: url("./media/pen.png"), auto;
+    width: 1000px;
+    height: 425px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    display: block;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+.optionsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    border-bottom: 3px solid grey;
+}
+
+#shape {
+    justify-content: center;
+}
+
+#shapePicture {
+    width: 30px;
+    height: 30px;
+}
+
+#undo:disabled {
+    opacity: 0.8;
+    cursor: not-allowed
+}
+
+#redo:disabled {
+    opacity: 0.8;
+    cursor: not-allowed
+}
+
+#shapeOptions {
+    text-align: left;
+    margin-left: 32px;
+    margin-bottom: 8px;
+}
+
+#appOptions {
+    text-align: right;
+    margin-right: 32px;
+    margin-bottom: 8px;
+}
+
+#appOptions button {
+    margin-top: 8px;
+}
+
+#color,
+#spinner {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+#designer {
+    margin-top: 16px;
+    margin-left: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.pair label {
+    margin-right: 12px;
+}
+
+line {
+    stroke: black;
+    stroke-width: 3;
+}
+
+line:hover {
+    cursor: pointer;
+}
+
+rect {
+    fill: none;
+    stroke: black;
+    stroke-width: 3;
+}
+
+rect:hover {
+    fill: darkgray;
+    fill-opacity: 0.7;
+    cursor: pointer;
+}
+
+circle {
+    fill: none;
+    stroke: black;
+    stroke-width: 3;
+}
+
+circle:hover {
+    fill: darkgray;
+    fill-opacity: 0.7;
+    cursor: pointer;
+}
+
+ellipse {
+    fill: none;
+    stroke: black;
+    stroke-width: 3;
+}
+
+ellipse:hover {
+    fill: darkgray;
+    fill-opacity: 0.7;
+    cursor: pointer;
+}
+
+polygon {
+    fill: none;
+    stroke: black;
+    stroke-width: 3;
+}
+
+polygon:hover {
+    fill: darkgray;
+    fill-opacity: 0.7;
+    cursor: pointer;
+}
+
+.echilateral {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.isosceles {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.right_isosceles {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.right {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.rhomb {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.hexagon {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.square {
+    stroke: black;
+    stroke-width: 3;
+}
